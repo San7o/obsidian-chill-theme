@@ -1,0 +1,65 @@
+body {
+	--radius-s: 8px;
+	--radius-m: 8px;
+	--radius-l: 8px;
+	--input-radius: 8px;
+	--tab-radius-active: 8px;
+	--checkbox-radius: 8px;
+	--toggle-radius: 0px;
+	--toggle-thumb-radius: 0px;
+	--slider-thumb-radius: 8px;
+}
+
+.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+	display: none;
+}
+
+svg * {
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0;
+}
+
+.menu {
+	padding: var(--size-2-1);
+}
+
+.menu-item {
+	padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.theme-dark {
+	/* General */
+    --background-primary: #282c34;
+	--background-secondary: #24272e;
+	--text-accent: #5492b4;
+	--interactive-accent: #5492b4;
+	/* Highlight */
+	--text-highlight-bg: #5492b4;
+	--highlight-bg-color: #5492b4;
+	/* Block Quote */
+	--blockquote-border-color: var(--text-accent);
+    --canvas-background: var(--background-primary);
+	/* Titlebar */
+	--titlebar-background-focused: var(--background-secondary);
+	/* Code */
+	--code-background: var(--background-secondary);
+}
+
+/* Checkboxes */
+.checkbox-container {
+	border-radius: var(--checkbox-radius);
+}
+
+.checkbox-container.is-enabled::after {
+	border-radius: var(--checkbox-radius);
+}
+
+.checkbox-container::after {
+	border-radius: var(--checkbox-radius);
+}
