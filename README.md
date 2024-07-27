@@ -2,6 +2,9 @@
 
 My personal Obsidian Theme, in armony with my [NixOS](https://github.com/San7o/nixos-dotfiles) color scheme.
 
+I also made a theme for Obsidian Advanced Slides [here](https://github.com/San7o/obsidian-advanced-slides-theme-chill/tree/main) with
+the same color scheme.
+
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/cd73c2f0-365a-4478-a69c-980eb6c2ab59)
